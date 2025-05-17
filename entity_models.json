@@ -1,0 +1,136 @@
+[
+  {
+    "attributeDefinitions": [
+      {
+        "name": "IdProfesor",
+        "typeName": "String",
+        "isIdentifier": true
+      },
+      {
+        "name": "Nombre",
+        "typeName": "String",
+        "isIdentifier": false
+      },
+      {
+        "name": "Apellido",
+        "typeName": "String",
+        "isIdentifier": false
+      }
+    ],
+    "entities": [
+      {
+        "uniqueId": "1",
+        "attributes": {
+          "Nombre": "Pedro",
+          "IdProfesor": "1",
+          "Apellido": "Sanchez1"
+        }
+      }
+    ]
+  },
+  {
+    "attributeDefinitions": [
+      {
+        "name": "IdAlumno",
+        "typeName": "String",
+        "isIdentifier": true
+      },
+      {
+        "name": "Nombre",
+        "typeName": "String",
+        "isIdentifier": false
+      },
+      {
+        "name": "Apellido",
+        "typeName": "String",
+        "isIdentifier": false
+      }
+    ],
+    "entities": [
+      {
+        "uniqueId": "3",
+        "attributes": {
+          "Nombre": "Paco ",
+          "Apellido": "Alfredo",
+          "IdAlumno": "3"
+        }
+      }
+    ]
+  },
+  {
+    "attributeDefinitions": [
+      {
+        "name": "IdMascota",
+        "typeName": "String",
+        "isIdentifier": true
+      },
+      {
+        "name": "Nombre",
+        "typeName": "String",
+        "isIdentifier": false
+      },
+      {
+        "name": "Raza",
+        "typeName": "String",
+        "isIdentifier": false
+      },
+      {
+        "name": "Tamaño",
+        "typeName": "String",
+        "isIdentifier": false
+      },
+      {
+        "name": "Edad",
+        "typeName": "String",
+        "isIdentifier": false
+      },
+      {
+        "name": "Fecha",
+        "typeName": "String",
+        "isIdentifier": false
+      }
+    ],
+    "entities": [
+      {
+        "uniqueId": "4",
+        "attributes": {
+          "Nombre": "Paco",
+          "Raza": "Todas",
+          "Edad": "6",
+          "Fecha": "5/16/25",
+          "Tamaño": "40cm",
+          "IdMascota": "4"
+        }
+      }
+    ]
+  },
+  {
+    "attributeDefinitions": [
+      {
+        "name": "idPersona",
+        "typeName": "String",
+        "isIdentifier": true
+      },
+      {
+        "name": "Nombre",
+        "typeName": "Integer",
+        "isIdentifier": false
+      },
+      {
+        "name": "Apellido",
+        "typeName": "String",
+        "isIdentifier": false
+      }
+    ],
+    "entities": [
+      {
+        "uniqueId": "2",
+        "attributes": {
+          "Nombre": 2,
+          "Apellido": "Hernandez",
+          "idPersona": "2"
+        }
+      }
+    ]
+  }
+]
